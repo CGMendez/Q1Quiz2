@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animated Movie</title>
+<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizzing: border-box;
+		font-family: Times New Roman;
+	}
+	body{
+		background-image: url(https://i.pinimg.com/originals/e6/68/90/e66890cfb64336cf6a29d8b6296eedc2.jpg);	
+	}
+	.card-container{
+		display: flex;
+		column-gap: 10px;
+		justify-content: center;
+		flex-wrap: wrap-reverse;
+		margin-top: 100px;
+	}
+	.card{
+		width: 325px;
+		background-image: url(https://i.pinimg.com/originals/e6/68/90/e66890cfb64336cf6a29d8b6296eedc2.jpg);
+		border-radius: 4px;
+		overflow:hidden;
+		box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+		margin: 10px;
+	}
+	.card img{
+		width: 100%;
+		height: auto;		
+	}
+	.card-content{
+		padding: 16px;		
+	}
+	.card-content h3{
+		font-size: 28px;
+		margin-bottom: 4px;		
+	}
+	.card-content p{
+		color: white;
+		font-size: 15px;
+		line-height: 1.3;
+	}
+	.card-content .btn{
+		display: inline-block;
+		padding: 4px 16px;
+		background-image: url(https://i.pinimg.com/originals/e6/68/90/e66890cfb64336cf6a29d8b6296eedc2.jpg);
+		text-decoration: none;
+		border-radius: 4px;
+		margin-top:16px;
+	}
+	.card-hover{
+		background-image: url(https://i.pinimg.com/originals/e6/68/90/e66890cfb64336cf6a29d8b6296eedc2.jpg);
+		cursor: pointer;
+		transform: scale(1.03);
+		transition: all 1s ease;
+	}
+h1{
+	border-style: outset;
+	border-width: 5px;
+	border-color: deepskyblue;
+	border-radius: 100px;
+	padding:5px;
+
+
+</style>
+
+
+</head>
+<body>
+<h1 style="text-align: center; text-size: 300%; font-weight: bolder; font-family: Times New Roman; color: white; font-size: 300%;"> Toy Story 3</h1>
+
+	<div class="card-container">
+		<div class="card">
+			<img src="https://static.wikia.nocookie.net/pixar/images/f/fd/Andy.png/revision/latest/scale-to-width/360?cb=20200418190907">
+			<div class="card-content">
+				<h3>Andy Davis</h3>
+				<li>Andy Davis is a kid in the story with living toys and has been obsessed with them ever since. </li>
+					<li>In the first 2 parts of the movie, he was still a kid but in this part he was already 17 years old and about to move out of the country or out of the house. </li>
+				<a href="https://disney.fandom.com/wiki/Andy_Davis#:~:text=Toy%20Story%203.-,Personality,a%20large%20amount%20of%20love." class="btn">Read More</a>
+			</div>
+
+		</div>
+		
+
+		<div class="card">
+			<img src="https://i.pinimg.com/564x/67/c1/c5/67c1c51b03e1613f85b449fd475fe39c.jpg">
+			<div class="card-content">
+				<h3>Woody</h3>
+				<li>Woody is one of Andy's toys and is one of the most favorited toy that Andy owns. </li>
+					<li>He is a cowboy sheriff that has a pull-string at his back for him to activate. 
+						<li>Although, Andy is a bit older in this part of the movie, he still finds ways to play with his toys and cherish them. </li>
+				<a href="https://disney.fandom.com/wiki/Woody#:~:text=%22Woody%20is%20a%20cowboy%20sheriff,still%20cares%20about%20his%20toys." class="btn">Read More</a>
+			</div>
+
+		</div>
+		
+
+		<div class="card">
+			<img src="https://i.pinimg.com/564x/8f/5b/be/8f5bbebb074043b64de8e5d81e158c62.jpg">
+			<div class="card-content">
+				<h3>Buzz Lightyear</h3>
+				<li>Buzz Lightyear is a toy that is kind of toy that specializes in space. </li>
+				<li> He is a Space Ranger working under a certain facility. </li>
+				<a href="https://disney.fandom.com/wiki/Buzz_Lightyear#:~:text=Buzz%20Lightyear%20is%20the%20deuteragonist,were%20especially%20popular%20amongst%20children." class="btn">Read More</a>
+			</div>
+
+		</div>
+		
+
+
+		<div class="card">
+			<img src="https://i.pinimg.com/564x/36/18/77/361877eda8adf5c13620320ca771c98b.jpg">
+			<div class="card-content">
+				<h3>Jessie</h3>
+				<li>Jessie is one of the cowgirl dolls that Andy owns. </li>
+				<li>She has been with Andy ever since and is also one of his favorite toys. </li>
+				<a href="https://toystory.disney.com/jessie-the-yodeling-cowgirl#:~:text=Jessie%20is%20a%20rough%2Dand,member%20of%20Andy's%20toy%20gang." class="btn">Read More</a>
+			</div>
+
+		</div>
+		
+	</div>
+
+<br>
+	<center>
+	<form>	
+	<h2 style="text-align: center; text-size:100%; font-weight: bolder; font-family: Times New Roman; color: black; font-size:100%;">Leave us a comment here</h2>
+	<textarea rows="5" cols="35" placeholder="Leave a good comment please"></textarea>
+
+		<br><br>
+
+		<input type="submit" id="submit" name="submit" value="Submit Comment">
+		<input type="reset" id="reset" name="reset" value="Reset Comment">
+
+	<h2 style="text-align:center; text-size:100%; font-weight:bolder; font-family: Times New Roman; color:black; font-size:100%">Made by Cyrenne Grace P. Mendez</h2>
+
+		<br>
+			<h3 style="text-align: center; text-size:100%; font-weight:bolder; font-family: Times New Roman; color:black; font-size:100%;">Movie Recommendations</h3>
+			<select id="recommendations" name="recommendations">
+				<option value="Toy Story">Toy Story 1</option>
+				<option value="Toy">Toy Story 2</option>
+				<option value="Story">Toy Story 4</option>
+				<option value="En">Encanto</option>
+				<option value="Nemo">Finding Nemo</option>
+
+</form>
+</center>
+
+</body>
+</html>
